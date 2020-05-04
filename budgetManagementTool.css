@@ -1,0 +1,246 @@
+body{
+	background-color: hsla(0, 10%, 9%, 0.3);
+	border: 1px solid black;
+	height: 1000px
+}
+
+h1{
+	color: black;
+	font-size: 15px;
+	margin-top: 10px;
+    margin-bottom:  10px;
+    font-family: sans-serif;
+
+}
+
+
+h2{
+	color: white;
+	background-color: green;
+	border: 2px;
+	width: 400px;
+	text-align: center;
+    font-family: sans-serif;
+}
+
+button{
+	color: white;
+	background-color: green;
+	padding: 10px;
+	margin-top:  -400px;
+	border-radius: 10px;
+
+}
+
+button:hover{
+	background-color: yellow;
+	color: black;
+}
+
+
+
+input{
+	border: 2px solid #ccc;
+	padding: 3px 1px 0 0;
+	width: : 100px;
+	box-shadow: 1px 1px 1px 1px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius:3px;
+	padding-left: 8px;
+	color: green;
+}
+
+input[type=text]:focus{
+	border: 3px grey;
+	padding: 1px 1px 0 0;
+}
+
+table, th, td{
+	border: 1px solid black;
+	width: 350px;
+	padding: 5px;
+	font-family: sans-serif;
+}
+
+tbody{
+	height: 200px;
+	overflow: auto;
+
+}
+
+
+#DisplayResultZone{
+	box-shadow: 0px 0px 2px 2px;
+	box-sizing: border-box;
+	padding: 7px;
+	border-radius: 4px;
+	padding-left: 8px;
+	float: right;
+	position: fixed;
+	/*margin-top: -450px;
+	margin-left: 400px;*/
+	margin-top: -200px;
+	margin-left: 700px;
+	width: 800px;
+	height: 600px;
+}
+
+
+#boardZone{
+	box-shadow: 0px 0px 2px 2px;
+	box-sizing: border-box;
+	padding: 7px;
+	border-radius: 4px;
+	padding-left: 8px;
+	float: right;
+	position: fixed;
+	
+/*
+	margin-top: -200px;
+	margin-left: 700px;*/
+	width: 1700px;
+	height: 2000px;
+
+}
+
+#displayResultId{
+	display: inline-block;
+	padding:  0 2px 0 0;
+	border: 3px gray;
+	width: 150px;
+
+	margin: 0 20px;
+	border-radius: 30px;
+
+}
+
+
+#displayCurrentTotalResidueId{
+	color:  blue;
+	/*margin-left:  400px;*/
+	margin-left:  700px;
+	margin-top:  -30px;
+	position: fixed;
+}
+
+#costCalcDiv{
+	width: 200px;
+	border: 2px 2px 2px 2px black;
+	box-sizing: border-box;
+	/*margin-top: 20px;
+	margin-left: 30px;*/
+	margin-top: 50px;
+	margin-left: 300px;
+	
+}
+
+#incomeCalcDiv{
+	border: 5px 1px 2px solid;
+	border-color: blue;
+	width: 200px;
+	border: 2px 2px 2px 2px black;
+	box-sizing: border-box;
+	/*margin-top: 10px;
+	margin-left: 30px;*/
+	margin-top: -220px;
+	margin-left: 30px;
+}
+
+#allocationCalcDiv{
+	width: 300px;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+
+
+
+#incomeTableDiv{
+	border: 2px 2px 2px 2px black;
+	width: 350px;
+	padding: 5px;
+	position: fixed;
+	/*margin-top: -445px;
+	margin-right: 50px;
+	margin-left: 830px;*/
+	margin-top: -195px;
+	margin-right: 250px;
+	margin-left: 1140px;
+}
+
+
+#allocateTableDiv{
+	width: 350px;
+	padding: 5px;
+	position: fixed;
+/*	margin-top: -100px;
+	margin-right: 50px;
+	margin-left: 830px;*/
+	margin-top: 100px;
+	margin-right: 50px;
+	margin-left: 1140px;
+}
+
+
+
+#calculateSavingId{
+	background-color: green;
+	color: white;
+	padding: 10px;
+	margin:10px 2px;
+	border-radius: 10px;
+	/*margin-left: 30px;
+	float: right;
+	margin-top: 250px;*/
+	margin-left: 30px;
+	float: right;
+	margin-top: 600px;
+}
+#calculateSavingId:hover{
+	background-color:  yellow;
+	color: black;
+}
+
+#calculatorBar{
+	border:2px 2px 2px 2px solid black;
+	width: 30px;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+
+#displaySavings{
+	width: 400px;
+	height: 30px;
+	color: green;
+    font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	/*padding-top: 18px;
+	float: right;*/
+	margin-left: 700px;
+	margin-top: 420px;
+}
+
+#tableBar{
+	margin-top: -330px;
+}
+
+#displayIncomeResultId{
+	color: red;
+
+}
+
+#displayCostResultId{
+	color: red;
+
+}
+
+
+
+
+
+
+
+
+
