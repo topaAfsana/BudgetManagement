@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>budgetManagementTool</title>
+	<link rel="styleSheet" href="budgetManagementTool.css">
+</head>
+<body>
+	<div id= "boardZone">
+<h2>BUDGET MANAGEMENT TOOL</h2>
+<div id ="displayCurrentTotalResidueId"></div>
+
+
+<!-- LEFT NAV -->
+<div id= "calculatorBar">
+	
+<div id ="costCalcDiv"><h1>EXPENSE</h1>
+<form>
+	<strong> Enter cost Item</strong> <input type="text" id="itemId"></input><br></br>
+	<strong> Enter cost Amount</strong> <input type="text" id="costId"></input><br></br>
+	<br></br>
+	<button type="button" onclick="calculateCost()"><strong>Add Expense</strong></button>
+</form></div>
+
+
+
+ 
+<div id ="incomeCalcDiv">
+<h1>INCOME</h1>
+<form>
+	<strong>Income Source</strong> <input type="text" id="incomeSourceId"></input><br></br>
+	<strong> Enter Salary</strong> <input type="text" id="salaryId"></input><br></br>
+	<br></br>
+	<button type="button" onclick="calculateIncome()"><strong>Add Income</strong></button>
+</form>
+</div>
+
+
+<div id ="allocationCalcDiv">
+<h1>ALLOCATION</h1>
+<form>
+	<strong>Allocate:</strong> <input type="text" id="allocateOnId"></input><br></br>
+	<strong>Amount</strong> <input type="text" id="allocateAmountId"></input><br></br>
+	<br></br>
+	<button type="button" onclick="allocationSavings()"><strong>Allocate</strong></button>
+</form>
+</div>
+ </div>
+
+<!-- LEFT NAV -->
+
+
+
+ 
+<!-- RIGHT NAV -->
+
+ <div id="tableBar"> 
+ 	<div id="DisplayResultZone">
+
+ 		<button type="button" id="calculateSavingId" onclick="CalculateSavings()"><strong>Calculate Savings</strong></button>
+ 		<div id ="displayCurrentTotalResidueId"></div>
+
+
+ 		<div id="displayCostResultId"> </div>
+ 		<table id="costTable">
+ 			<thead>
+ 				<tr>
+ 					<th> Expense Item</th>
+ 					<th> Cost</th>
+ 				</tr>
+ 			</thead>
+ 			<tbody></tbody>
+ 			
+ 		</table>
+ 	</div>
+
+<div id="incomeTableDiv"> 
+	<div id= "displayIncomeResultId"></div>
+	<table id="incomeTable">
+ 			<thead>
+ 				<tr>
+ 					<th>Income Source</th>
+ 					<th>Salary</th>
+ 				</tr>
+ 			</thead>
+ 			<tbody></tbody>
+ 		</table>
+</div>
+
+<div id="allocateTableDiv"> 
+	<div id= "displayAllocationResultId"></div>
+	<table id="allocateTable">
+ 			<thead>
+ 				<tr>
+ 					<th>Allocate On</th>
+ 					<th>Amount</th>
+ 				</tr>
+ 			</thead>
+ 			<tbody></tbody>
+ 		</table>
+</div>
+
+
+ </div>
+ <!-- RIGHT NAV -->
+ 
+ <div id = "displaySavings" ></div>
+</div>
+
+
+</body>
+
+<script src="budgetManagementTool.js"></script>
+</html>
