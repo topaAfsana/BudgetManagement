@@ -79,12 +79,16 @@ tbody{
 	padding-left: 8px;
 	float: right;
 	position: fixed;
-	/*margin-top: -450px;
-	margin-left: 400px;*/
 	margin-top: -200px;
 	margin-left: 700px;
 	width: 800px;
 	height: 600px;
+}
+
+#explorerTitle{
+		margin-top: -400px;
+	margin-left: 700px;
+
 }
 
 
@@ -235,6 +239,16 @@ tbody{
 #displayCostResultId{
 	color: red;
 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: teal;
+  color: white;
+  text-align: center;
 }
 
 
